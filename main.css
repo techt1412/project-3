@@ -3,7 +3,8 @@
 body{
     font-family: 'Asap', sans-serif;
     background-color : #EBEBEB;
-    
+    background-image: url(pug/Logo\ Background.png);
+}
 
 
 
@@ -117,11 +118,14 @@ padding-top: 10px;}
 
    .navbutton{display:block;
     text-decoration: none;
-    color: white;
-background-color: coral;
+    color: rgb(10, 156, 71);
+background-color: rgb(78, 77, 77);
 padding: 15px 30px;
 margin-left: -70px;
-text-align: center;}
+text-align: center;
+border: 1px solid white;
+border-radius: 5px;
+font-size: 1rem;
 
 }
 
@@ -132,8 +136,8 @@ text-align: center;}
 
   .col {width: 100%;}
 
-  .hide-mobile{
-    display: none;}
+  /* .hide-mobile{
+    display: none;} */
 
 
     
